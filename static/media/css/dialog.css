@@ -1,0 +1,26 @@
+.next-overlay-wrapper .next-overlay-backdrop {
+    position: fixed;
+    z-index: 1100;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    transition: opacity .3s;
+    opacity: 0;
+}
+.load-container.load {
+    background: url("/static/media/images/loader1.gif") no-repeat;
+    width: 48px;
+    height: 48px;
+    background-size: 100% 100%;
+}
+.next-overlay-wrapper.opened .next-overlay-backdrop {
+    opacity: .6;
+}
+
+.next-loading-tip {
+    position: absolute;
+    left: 615px;
+    top: 460.5px;
+}

@@ -1,0 +1,74 @@
+.loader .loader-container {
+  perspective: 1000px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -55px;
+  margin-top: -10px;
+  width: 120px;
+  white-space: nowrap;
+}
+.loader .loader-container.inline {
+  display: block;
+  position: initial;
+  margin: 0 auto;
+  min-height: 80px;
+}
+.loader .loader-container.inline aside {
+  margin-top: 30px;
+}
+.loader .loader-container aside {
+  display: inline-block;
+  margin: 0 2px;
+  width: 20px;
+  height: 20px;
+  float: left;
+  background-color: #000;
+  transform-origin: 0 0;
+  animation-name: flippy;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  transform: rotateX(-90deg);
+  opacity: 0.1;
+}
+.loader .loader-container aside:nth-child(0) {
+  animation-delay: 0s;
+}
+.loader .loader-container aside:nth-child(1) {
+  animation-delay: 0.2s;
+}
+.loader .loader-container aside:nth-child(2) {
+  animation-delay: 0.4s;
+}
+.loader .loader-container aside:nth-child(3) {
+  animation-delay: 0.6s;
+}
+.loader .loader-container aside:nth-child(4) {
+  animation-delay: 0.8s;
+}
+.loader .loader-container aside:nth-child(5) {
+  animation-delay: 1s;
+}
+@keyframes flippy {
+  0% {
+    transform: rotateX(-90deg);
+    opacity: 0.1;
+  }
+  25% {
+    transform-origin: 15px 15px;
+    transform-origin: 20px 20px;
+    opacity: 1;
+    transform: rotateX(0deg);
+    background-color: #bb2233;
+  }
+  75% {
+    transform-origin: 15px 15px;
+    transform-origin: 20px 20px;
+    transform: rotateX(0deg);
+  }
+  100% {
+    transform-origin: 15px 15px;
+    transform-origin: 20px 20px;
+    transform: rotateX(90deg);
+  }
+}
