@@ -1,4 +1,4 @@
-# 🚀 Absolutely Awesome my portfolio
+# 🚀 Absolutely awesome my portfolio
 
 ### Using reactjs build my portfolio
 ### Inspired on reactpoland nextjs material ui doc github
