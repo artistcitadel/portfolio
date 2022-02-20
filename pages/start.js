@@ -1,15 +1,17 @@
 import React from 'react';
-//import PropTypes from 'prop-types';
+// import PropTypes from 'prop-types';
 // import withCovervid from './withCovervid';
 import withCovervid from 'docs/src/modules/withCovervid';
 import Head from 'next/head';
 import Typed from "react-typed";
 import {isIE} from 'react-device-detect';
-//import '../styles/_index.scss';
+// import '../styles/_index.scss';
 
-function Getintrotxt(props){
-  //return <div>The Leading React SOFTWARE Follower <br/>FULL STACK WEB DEVELOPER.</div>;
-  return <div>Leading in React Software Development<br /> Full stack developer</div>;
+// eslint-disable-next-line no-unused-vars
+function Getintrotxt(_props){
+  // return <div>The Leading React SOFTWARE Follower <br/>FULL STACK WEB DEVELOPER.</div>;
+  // return <div>Leading in React Software Development<br /> Full stack developer</div>;
+  return <div>Leading in React Software Development</div>;
 }
 const style= {
 			overflow: 'hidden',
