@@ -9,9 +9,7 @@ import {isIE} from 'react-device-detect';
 
 function Getintrotxt(props){
   //return <div>The Leading React SOFTWARE Follower <br/>FULL STACK WEB DEVELOPER.</div>;
-  return <div>I am Leading React Software Follower<br /> Full stack developer</div>;
-  // return <div>I am Leading Web based Software Follower<br /> Full stack developer</div>;
-  // return <div>나는 웹 애플리케이션 소프트웨어 <br /> 전문가 입니다</div>;
+  return <div>Leading in React Software Development<br /> Full stack developer</div>;
 }
 const style= {
 			overflow: 'hidden',
